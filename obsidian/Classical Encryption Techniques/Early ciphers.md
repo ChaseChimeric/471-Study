@@ -1,16 +1,16 @@
 ## Shift
-The shift cipher is a cryptographic substitution cipher where each letter in the plaintext is replaced by a letter a certain number of positions further down the alphabet. This number of positions is sometimes called a key.
+The shift cipher is a cryptographic [[#Substitution]] cipher where each letter in the plaintext is replaced by a letter a certain number of positions further down the alphabet. This number of positions is sometimes called a key.
 The Caesar code is the most well-known shift cipher,
 A letter in position $N$ in the alphabet, can be shifted by $X$ into the letter located at position $N+X$ (This is equivalent to using a substitution with a shifted alphabet). Shift is an [[#Affine]] cipher with $A=0$
 
 ## Affine
-Affine cipher is the name given to a substitution cipher whose key consists of 2 coefficients $A$ and $B$ constituting the parameters of a mathematical linear function $f=Ax+B$ (called affine)
-Consists of a permutation and shift
+Affine cipher is the name given to a [[#Substitution]] cipher whose key consists of 2 coefficients $A$ and $B$ constituting the parameters of a mathematical linear function $f=Ax+B$ (called affine)
+Technically consists of a [[#Permutation]] and [[#Shift]]
 
 ## Substitution
 The most common method of substitution replaces the 26 letters of the alphabet (one letter matches only one other). An example of such is cipher is the mono-alphabetic cipher
 #### Mono-Alphabetic Substitution
-An alphabetic substitution is a substitution cipher where the letters of the alphabet are replaced by others according to a 1-1 correspondence (a plain letter always corresponds to the same cipher letter).
+An alphabetic substitution is a [[#Substitution]] cipher where the letters of the alphabet are replaced by others according to a 1-1 correspondence (a plain letter always corresponds to the same cipher letter).
 
 The substitution is said to be monoalphabetic because it uses only one alphabet, this alphabet is said to be disordered. An examle of such is below
 <style type="text/css">
@@ -63,7 +63,7 @@ a permutation is a rule that tells you how to rearrange a set of elements. For e
 We choose a keyword, and split the plaintext into blocks that are the same length as the keyword. We write this in columns beneath the keyword. We then label each keyword letter in alphabetical order (if there are duplicates we take them in order of appearance). So far this is identical to Columnar Transposition. Now we reorder the columns, so that the numbers are in order (the letters of the keyword are in alphabetical order). We now read across the rows.
 ![[Pasted image 20250322134425.png]]![[Pasted image 20250322134437.png]]
 
-## Stream and Block
+## Stream and Block Ciphers
 ### Block Ciphers
 - Encrypts data in fixed-size blocks (e.g., 64-bit, 128-bit).
 - Example: AES, DES.

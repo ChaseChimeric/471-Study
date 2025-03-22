@@ -15,7 +15,7 @@ To test whether a cryptosystem is perfectly secure, you can perform the followin
  Derive the relationship between the plaintext and ciphertext and show that the conditional probability $( P(Plaintext | Ciphertext) )$ equals the prior probability $( P(Plaintext) )$. 
 
 ### Example
-One example of perfect secrecy is [[OneTimePad]]
+One example of perfect secrecy is [[One-Time-Pad]]
 
 ### Entropy Analysis
  Analyze the entropy of the plaintext and ciphertext. In a perfectly secure system, the entropy of the ciphertext should equal the entropy of the plaintext. If knowing the ciphertext does not reduce the uncertainty about the plaintext, the system is perfectly secure. (How we did in the Lab)

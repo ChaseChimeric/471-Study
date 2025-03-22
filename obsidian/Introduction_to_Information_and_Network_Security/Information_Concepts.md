@@ -1,4 +1,4 @@
-# Information Concepts
+z# Information Concepts
 
 ## Confidentiality
 Confidentiality ensures that information is only accessible to authorized individuals. Denial of confidentiality occurs when unauthorized individuals can access sensitive data, compromising privacy and security.

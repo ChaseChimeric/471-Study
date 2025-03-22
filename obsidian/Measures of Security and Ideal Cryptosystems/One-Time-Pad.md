@@ -1,7 +1,7 @@
 # One-Time Pad
 
 ## Construction of One-Time Pad
-The One-Time Pad (OTP) is a symmetric key cipher where the plaintext is encrypted using a key that is randomly generated, as long as the plaintext message itself. Each character of the plaintext is combined with the key using an XOR operation.
+The One-Time Pad (OTP) is a symmetric key cipher where the plaintext is encrypted using a key that is randomly generated, as long as the plaintext message itself. Each character of the plaintext is combined with the key using an XOR operation. This is a [[Early ciphers#Stream and Block Ciphers#Stream Ciphers |Stream Cipher]]
 - The key is completely random.
 - Each key is used only once (hence "one-time").
 
