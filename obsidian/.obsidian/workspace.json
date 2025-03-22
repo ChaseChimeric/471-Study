@@ -4,37 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "704164d85695416b",
+        "id": "bd5b468cfbeb7aa8",
         "type": "tabs",
         "children": [
           {
-            "id": "32ace49eae336f7b",
+            "id": "b473fd361ae99486",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Classical Encryption Techniques/Three types of Cryptography.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          }
-        ]
-      },
-      {
-        "id": "84166ab30e9cb2b8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "be9fb25682d8013a",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Three types of Cryptography"
             }
           }
         ]
@@ -184,8 +168,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "32ace49eae336f7b",
+  "active": "b473fd361ae99486",
   "lastOpenFiles": [
+    "Symmetric Key Cryptography/DES and AES.md",
+    "Symmetric Key Cryptography/Pseudorandon number-sequence generation and steam ciphers.md",
+    "Symmetric Key Cryptography/Pseudorandon number generation.md",
+    "Symmetric Key Cryptography/Substitution-Permutation networks.md",
+    "Measures of Security and Ideal Cryptosystems/One-Time-Pad.md",
+    "Symmetric Key Cryptography/Notions of symmetric key cryptography.md",
+    "Symmetric Key Cryptography/Notions of symmetric key cryptography",
+    "Symmetric Key Cryptography/Product Cryptosystems.md",
+    "Symmetric Key Cryptography",
+    "Symmetric",
+    "Classical Encryption Techniques/Early ciphers.md",
+    "Pasted image 20250322134437.png",
+    "Pasted image 20250322134425.png",
+    "Pasted image 20250322134222.png",
+    "Measures of Security and Ideal Cryptosystems/Perfect Secrecy.md",
+    "Measures of Security and Ideal Cryptosystems",
+    "Introduction_to_Information_and_Network_Security.md",
+    "Introduction_to_Information_and_Network_Security",
     "Welcome.md"
   ]
 }
