@@ -14,12 +14,12 @@
 4. Have a deep understanding of the principles and concepts, and how to apply them in scenarios relevant to information and network security is more important than just knowing the details. More specifically, the following topics are considered fundamentals in this course. You are expected to know them by heart.
 
 ### Introduction to Information and Network Security:
-- Understand the basic goals of information and network security, such as confidentiality, integrity, authentication, non-repudiation, availability, etc.
-- What are the common threat/adversary models: passive and active attacks, identify the security attacks in terms of the violations of the security services.
-- Common terminology: concept of secure communication over an insecure channel
+- [[Information Concepts|Understand the basic goals of information and network security]], such as confidentiality, integrity, authentication, non-repudiation, availability, etc.
+- [[Threat Adversary Models|What are the common threat/adversary models]]: passive and active attacks, identify the security attacks in terms of the violations of the security services.
+- Common terminology: [[Secure Communication Over Insecure Channel|concept of secure communication over an insecure channel]]
 
 ### Basic modular arithmetic:
-- Modular addition, multiplication, exponentiation, Euclid’s algorithm, etc.
+- [[General Modular Arithmetic|Modular addition, multiplication, exponentiation, Euclid’s algorithm, etc.]]
 
 ### Classical Encryption Techniques:
 - [[Early ciphers]]: Shift, Affine, Substitution, Vigenere, Hill, Permutation ciphers.
@@ -28,34 +28,34 @@
 - [[Three types of Cryptography]]: Secret key, Public key, Hash functions. What security goals and they are able to achieve, respectively?
 
 ### Measures of Security and Ideal Cryptosystems:
-- Perfect secrecy: definitions, and how to test whether a cryptosystem is perfectly secure.
-- One-time-pad: construction, XOR operation, and why it is perfectly secure, pros and cons.
+- [[Perfect Secrecy|Perfect secrecy]]: definitions, and how to test whether a cryptosystem is perfectly secure.
+- [[One Time Pad|One-time-pad]]: construction, XOR operation, and why it is perfectly secure, pros and cons.
 
 ### Symmetric Key Cryptography:
-- Product cryptosystems: what is idempotent cryptosystem and its impact on security of a cipher.
-- Notions of symmetric key cryptography, and computational security
-- Substitution-permutation networks: general structure and why do we need it.
-- DES
-  - The Feistel structure, and general idea of Mangler function: S-Boxes and permutation, the key length of DES and its relationship with the security level;
-  - How to make more secure DES? – Triple DES, meet-in-the-middle attack, and how is Triple DES designed, why?
-- AES
-  - Understand the high-level structure and why it is secure, and comparison with DES
-- Understand why a block cipher is secure: what are the desired properties must the DES/AES algorithm satisfy? (e.g., the non-linear property, strict avalanche, bit independence) Why?
-- Five modes of encryption (how to encrypt large messages), their pros and cons
-- Pseudorandom number/sequence generation and stream ciphers
-  - What are the criteria to evaluate the security of PRNG or PRSG?
-  - Common ways of generating pseudorandom numbers and their security
+- [[Product cryptosystems]]: what is idempotent cryptosystem and its impact on security of a cipher.
+- Notions of [[Notions of symmetric key cryptography|symmetric key cryptography]], and computational security
+- [[Substitution-permutation networks]]: general structure and why do we need it.
+- [[DES and AES#**DES (Data Encryption Standard)**|DES]]
+	- The Feistel structure, and general idea of Mangler function: S-Boxes and permutation, the key length of DES and its relationship with the security level;
+	 - How to make more secure DES? – Triple DES, meet-in-the-middle attack, and how is Triple DES designed, why?
+- [[DES and AES#**AES (Advanced Encryption Standard)**|AES]]
+	- Understand the high-level structure and why it is secure, and comparison with DES
+- [[DES and AES#**Why is a Block Cipher Secure?**|Understand why a block cipher is secure]]: what are the desired properties must the DES/AES algorithm satisfy? (e.g., the non-linear property, strict avalanche, bit independence) Why?
+- [[DES and AES#**Five Modes of Encryption**|Five modes of encryption]] (how to encrypt large messages), their pros and cons
+- [[Pseudorandon number-sequence generation and steam ciphers|Pseudorandom number/sequence generation and stream ciphers]]
+	- What are the criteria to evaluate the security of PRNG or PRSG?
+	- Common ways of generating pseudorandom numbers and their security
 
 ### Hashes and Message Digest:
-- The desired properties of cryptographic hash functions: one-way property (preimage resistance), second preimage resistance, collision resistance, and randomness, why are they needed.
-  - The complexity of breaking each property, the Birthday paradox and related probability calculations
-- The length requirement for a message digest (how many bits are considered sufficient?)
-- General iterated construction of message digests
-- Message authentication codes: understand the security requirements of MACs, how to construct secure keyed hash function (e.g., HMAC, CBC-MAC, etc).
-- Applications of hash functions: e.g., integrity check, authentication, commitment protocols, encryption, etc. How to securely combine hash with encryption to achieve both confidentiality and authentication/integrity protection.
+- [[Desired properties of cryptographic hash functions#1. Desired Properties of Hash Functions|The desired properties of cryptographic hash functions]]: one-way property (preimage resistance), second preimage resistance, collision resistance, and randomness, why are they needed.
+	- The complexity of breaking each property, the Birthday paradox and related probability calculations
+- [[Desired properties of cryptographic hash functions#1. Length Requirement for a Message Digest|The length requirement for a message digest]] (how many bits are considered sufficient?)
+- [[Desired properties of cryptographic hash functions#2. General Iterated Construction of Message Digests|General iterated construction of message digests]]
+- [[Message authentication codes|Message authentication codes]] understand the security requirements of MACs, how to construct secure keyed hash function (e.g., HMAC, CBC-MAC, etc).
+- [[Applications of hash functions|Applications of hash functions]]: e.g., integrity check, authentication, commitment protocols, encryption, etc. How to securely combine hash with encryption to achieve both confidentiality and authentication/integrity protection.
 
 ### Public Key Cryptography:
-- The basic concepts of public key cryptography, including public key encryption and signatures, what security properties they can achieve.
-- The RSA cryptosystem: know how public/private keys are generated; how to use public/private keys to encrypt/decrypt messages; the vulnerabilities of textbook RSA and remedies
-- Digital signature schemes: different levels of security requirements, and three attack models; RSA signatures: construction, possible attacks, hash and then sign.
-- Applications of public key encryption and digital signatures – basic applications, and how to securely combine signature with encryption to achieve both confidentiality and authentication/integrity protection.
+- [[Basic Concepts of Public Key Cryptography|The basic concepts of public key cryptography]], including public key encryption and signatures, what security properties they can achieve.
+- [[The RSA cryptosystem|The RSA cryptosystem]]: know how public/private keys are generated; how to use public/private keys to encrypt/decrypt messages; the vulnerabilities of textbook RSA and remedies
+- [[Digital signature schemes|Digital signature schemes]]: different levels of security requirements, and three attack models; RSA signatures: construction, possible attacks, hash and then sign.
+- [[Applications of public key encryption and digital signatures|Applications of public key encryption and digital signatures]] – basic applications, and how to securely combine signature with encryption to achieve both confidentiality and authentication/integrity protection

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bd5b468cfbeb7aa8",
+        "id": "4256368e99aa4fdf",
         "type": "tabs",
         "children": [
           {
-            "id": "b473fd361ae99486",
+            "id": "66ef19fc96bd4be3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Overview"
-            }
-          },
-          {
-            "id": "9b7437d2aecf0ad5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Classical Encryption Techniques/Early ciphers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Early ciphers"
             }
           }
         ]
@@ -182,36 +168,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b473fd361ae99486",
+  "active": "66ef19fc96bd4be3",
   "lastOpenFiles": [
-    "Classical Encryption Techniques/Three types of Cryptography.md",
+    "Modular Arithmetic/General Modular Arithmetic.md",
+    "Hashes and Message Digest/Applications of hash functions.md",
     "Overview.md",
     "Classical Encryption Techniques/Early ciphers.md",
-    "Hashes and Message Digest/Applications of hash functions.md",
-    "Introduction_to_Information_and_Network_Security/Information_Concepts.md",
-    "Public Key Cryptography/Basic Concepts of Public Key Cryptography.md",
-    "Hashes and Message Digest/Desired properties of cryptographic hash functions.md",
-    "Hashes and Message Digest/Message authentication codes.md",
-    "Public Key Cryptography",
-    "Symmetric Key Cryptography/DES and AES.md",
+    "attachments/Pasted image 20250322134222.png",
+    "attachments/Pasted image 20250323222453.png",
     "Symmetric Key Cryptography/Substitution-Permutation networks.md",
-    "Symmetric Key Cryptography/Pseudorandon number-sequence generation and steam ciphers.md",
-    "Symmetric Key Cryptography/Product Cryptosystems.md",
+    "attachments",
+    "Modular Arithmetic/attachments/Pasted image 20250323222418.png",
+    "Modular Arithmetic/attachments",
+    "attachments/Pasted image 20250322134437.png",
+    "attachments/Pasted image 20250322134425.png",
+    "Introduction to Information and Network Security/Information Concepts.md",
+    "Introduction to Information and Network Security/Secure Communication Over Insecure Channel.md",
+    "Introduction to Information and Network Security/Threat Adversary Models.md",
+    "Public Key Cryptography/Applications of public key encryption and digital signatures.md",
+    "Modular Arithmetic",
+    "Public Key Cryptography/Digital signature schemes.md",
+    "Public Key Cryptography/Basic Concepts of Public Key Cryptography.md",
+    "Public Key Cryptography/The RSA cryptosystem.md",
+    "Hashes and Message Digest/Message authentication codes.md",
+    "Hashes and Message Digest/Desired properties of cryptographic hash functions.md",
+    "Classical Encryption Techniques/Three types of Cryptography.md",
+    "Symmetric Key Cryptography/DES and AES.md",
     "Symmetric Key Cryptography/Notions of symmetric key cryptography.md",
-    "Measures of Security and Ideal Cryptosystems/One-Time-Pad.md",
+    "symmetric key cryptography.md",
+    "Symmetric Key Cryptography/Pseudorandon number-sequence generation and steam ciphers.md",
+    "Pseudorandom number/sequence generation and stream ciphers.md",
+    "Pseudorandom number",
+    "Public Key Cryptography",
+    "Symmetric Key Cryptography/Product Cryptosystems.md",
+    "Measures of Security and Ideal Cryptosystems/One Time Pad.md",
     "Hashes and Message Digest/desired properties of cryptographic hash functions.md",
     "Hashes and Message Digest",
     "Symmetric Key Cryptography/Pseudorandon number generation.md",
     "Symmetric Key Cryptography/Notions of symmetric key cryptography",
     "Symmetric Key Cryptography",
     "Symmetric",
-    "Pasted image 20250322134437.png",
-    "Pasted image 20250322134425.png",
-    "Pasted image 20250322134222.png",
     "Measures of Security and Ideal Cryptosystems/Perfect Secrecy.md",
-    "Measures of Security and Ideal Cryptosystems",
-    "Introduction_to_Information_and_Network_Security.md",
-    "Introduction_to_Information_and_Network_Security",
-    "Welcome.md"
+    "Measures of Security and Ideal Cryptosystems"
   ]
 }
