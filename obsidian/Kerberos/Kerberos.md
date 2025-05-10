@@ -29,7 +29,7 @@ Each principal shares a **long-term key** with the KDC:
 
 All credentials are managed in the KDC’s database as `<principal, key>` pairs.
 
-📌 Diagram: ![[Kerberos_Configuration]]
+📌 Diagram: [![Kerberos_Configuration]](https://en.wikipedia.org/wiki/Kerberos_(protocol)#/media/File:Kerberos_protocol.svg)
 
 ---
 
